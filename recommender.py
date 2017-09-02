@@ -4,8 +4,8 @@ import requests
 import sys
 
 
-CLIENT_ID = 'YOUR APP CLIENT ID'
-CLIENT_SECRET = 'YOUR APP CLIENT SECRET'
+CLIENT_ID = 'YOUR APP ID'
+CLIENT_SECRET = 'YOUR APP SECRET'
 
 
 def get_access_token():
