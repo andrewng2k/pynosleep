@@ -6,7 +6,7 @@ on www.reddit.com/r/nosleep.
 
 ## How to run?
 Register your app on www.reddit.com/prefs/apps to get
-client_id and client_secret
+client_id and client_secret.
 Change value of variable `CLIENT_ID` and `CLIENT_SECRET` then open your terminal and type:
 ```
 $ python recommender.py <reddit-username> <reddit-password>
