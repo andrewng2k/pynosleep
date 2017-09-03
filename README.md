@@ -1,7 +1,7 @@
-# nosleep-recommend
+# pynosleep
 
-## What is nosleep-recommend?
-Its name tells everything. A python3 script used to recommend 5 (default) hot posts
+## What is pynosleep?
+A python3 script used to recommend 5 (default) hot posts
 on www.reddit.com/r/nosleep.
 
 ## How to run?
