@@ -32,7 +32,7 @@ def get_posts(token, subreddit='nosleep', count=5):
     '''
     headers = {'Authorization': 'bearer ' + token,
                'User-Agent': 'recommender by /u/duycoding710'}
-    res = requests.get('https://oauth.reddit.com/r/nosleep/hot?limit=', count,
+    res = requests.get('https://oauth.reddit.com/r/nosleep/hot?limit=' + str(count),
                        headers=headers)
     res = res.json()
     return res
